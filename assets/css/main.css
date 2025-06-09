@@ -1,0 +1,315 @@
+
+.container__sobre__imagem{
+    display: flex;
+    align-items: center;
+    height: 990px;
+    background-image: url(banner_sobre.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container__ideias{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+}
+
+.container__ideias__card{
+    width: 700px;
+}
+
+
+.container__ideias__txt h2{
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-weight: 500;
+    margin:20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 21px;
+}
+
+
+.container__sobre__texto p{
+    line-height: 1.8;
+    width: 697px;
+}
+
+
+.sobre h1{
+    margin-top: 95px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+
+.container__sobre__imagem img{
+    width: 550px;
+}
+
+.margem{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+
+
+
+.container__posicionamento{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+.valores h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+
+}
+
+.valores{
+    height: 850px;
+
+}
+
+.container__valores{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__personalidade{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.personalidade h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.personalidade{
+    margin-top: 100px;
+    height: 815px;
+}
+
+.container__personalidade__texto{
+    width: 725px;
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+.container__personalidade__texto h2{
+    color: grey;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.8;
+
+}
+
+
+
+
+
+.container__posicionamento__card{
+    width: 500px;
+    
+}
+
+
+
+.container__posicionamento {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.container__posicionamento__card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 33px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container__posicionamento__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+
+.container__posicionamento__card h2 {
+  font-size: 1.5rem;
+  color: #000000;
+  margin-bottom: 0.75rem;
+}
+
+.container__posicionamento__card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+
+
+
+.container__marca__img img{
+    width: 480px;
+    position: relative;
+    top: -25px;
+}
+
+
+.container__marca{
+      display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+    height: 650px;
+}
+
+.container__marca__txt{
+    width: 645px;
+}
+
+
+
+.marca h1{
+    text-align: center;
+    font-size: 36px;
+    margin: 20px;
+}
+
+.ideias h1{
+        text-align: center;
+    font-size: 36px;
+    margin-bottom: 70px;
+}
+
+.cores h1{
+        text-align: center;
+    font-size: 36px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+
+.container__cores{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.container__cores__txt{
+    width: 700px;
+
+}
+
+.container__cores__img img{
+    width: 350px;
+}
+
+.input-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon i {
+  position: absolute;
+  left: 20px;
+  color: #0c0b0b;
+  font-size: 18px;
+}
+
+.input-icon input {
+    padding-left: 45px;
+    height: 60px;
+    width: 433px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+
+.container__contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.input-icon {
+    margin: 10px;
+}
+
+.contato{
+    background-image: url(../img/fundo-contato.png);
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: cover;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+.container__contato__input{
+    padding: 60px;
+        background-color: #ffffff7d;
+    padding: 60px;
+    border-radius: 40px;
+    box-shadow: 7px 5px 13px black;
+    
+}
+
+.contato h1{
+        text-align: center;
+    font-size: 42px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    padding-top: 200px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.container__contato__input img{
+    width: 500px;
+    position: relative;
+}
+
+.container__contato__input__button input{
+    padding: 18px;
+    text-align: center;
+    width: 195px;
+    border-radius: 50px;
+    border: 1px solid #80808061;
+    font-size: 18px;
+    background: #ffffff69;
+    cursor: pointer;
+}
+form{
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

@@ -1,0 +1,22 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1, p , a , h2 {
+    font-family: 'sans-serif' , Montserrat;
+
+}
+
+
+
+
+.margin{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
