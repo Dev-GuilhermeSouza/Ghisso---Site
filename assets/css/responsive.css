@@ -212,7 +212,7 @@ p{
 }
 
 
-@media screen and (min-width:768px) and (max-width:1365px) {
+@media screen and (min-width:768px) and (max-width:1465px) {
     
     .container__cabecalho__logo img{
         display: block;
@@ -291,10 +291,10 @@ p{
 }
 
 .container__bannertopo img {
-    position: relative;
-    top: 122px;
-    height: 350px;
-    width: 100%;
+position: relative;
+        top: 122px;
+        height: max-content;
+        width: 100%;
 }
 
 .container__personalidade__img img{
