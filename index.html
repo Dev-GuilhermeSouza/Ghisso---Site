@@ -44,6 +44,21 @@
                 </nav>
             </div>
 
+<div class="container__header__hamburguer">
+    <div class="menu-toggle" id="menu-toggle">
+    <i class="fa-solid fa-bars"></i>
+    </div>
+    
+    <nav class="menu" id="menu">
+      <ul>
+                        <li><a href="#sobre">Quem Somos?</a></li>
+                        <li><a href="#ideias">Ideias</a></li>
+                        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+
+        </div>
         </div>
     </header>
 
@@ -277,6 +292,16 @@
             observer.observe(el);
         });
     </script>
+
+<script>
+    const toggle = document.getElementById('menu-toggle');
+const menu = document.getElementById('menu');
+
+toggle.addEventListener('click', () => {
+  menu.classList.toggle('active');
+});
+
+</script>
 
 </body>
 

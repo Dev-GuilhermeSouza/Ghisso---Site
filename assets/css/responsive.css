@@ -1,11 +1,18 @@
 @media screen and (max-width:768px) {
     
     .container__cabecalho__logo img{
-        display: none;
+        display: block;
     }
     .container__cabecalho__nav ul{
         margin-left: 1px;
     }
+
+
+    .menu-toggle i{
+ 
+ font-size: 32px;
+        color: aliceblue;
+}
 
     .margin{
         margin-left: 1px;
@@ -15,6 +22,15 @@
         margin-left: 1px;
         margin-right: 1px;
     }
+
+    .container__header__hamburguer{
+    display: block;
+    padding: 20px;
+}
+
+.container__cabecalho__nav{
+    display: none;
+}
 
 header {
     position: absolute;
