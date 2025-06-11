@@ -7,6 +7,10 @@
         margin-left: 1px;
     }
 
+.container__cabecalho__link{
+    display: none;
+}
+
 
     .menu-toggle i{
  
@@ -86,7 +90,7 @@ p{
 .container__bannertopo img {
     position: relative;
     top: 122px;
-    height: 350px;
+    height: max-content;
     width: 100%;
 }
 
@@ -213,7 +217,9 @@ p{
 
 
 @media screen and (min-width:768px) and (max-width:1465px) {
-    
+    .container__cabecalho__link{
+    display: none;
+}
     .container__cabecalho__logo img{
         display: block;
     }
@@ -258,7 +264,7 @@ header {
 
 .container__sobre__texto{
     position: relative;
-    left: -260px;
+    left: -140px;
 }
 
 .container__sobre__imagem {
@@ -292,7 +298,6 @@ p{
 
 .container__bannertopo img {
 position: relative;
-        top: 122px;
         height: max-content;
         width: 100%;
 }
@@ -364,6 +369,14 @@ position: relative;
     color: white;
     text-shadow: 2px 2px 4px black;
 }
+
+
+.container__cabecalho__nav ul{
+    margin-right: 1px;
+}
+
+
+
 
 .contato {
     height: 575px;

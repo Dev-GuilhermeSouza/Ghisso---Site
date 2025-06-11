@@ -44,21 +44,27 @@
                 </nav>
             </div>
 
-<div class="container__header__hamburguer">
-    <div class="menu-toggle" id="menu-toggle">
-    <i class="fa-solid fa-bars"></i>
-    </div>
-    
-    <nav class="menu" id="menu">
-      <ul>
+            <div class="container__cabecalho__link">
+                    <a href="https://www.linkedin.com/company/ghisso-company/"><i class="fa-brands fa-linkedin"></i></a>
+
+            </div>
+
+
+            <div class="container__header__hamburguer">
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <nav class="menu" id="menu">
+                    <ul>
                         <li><a href="#sobre">Quem Somos</a></li>
                         <li><a href="#ideias">Ideias</a></li>
                         <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+                    </ul>
+                </nav>
 
 
-        </div>
+            </div>
         </div>
     </header>
 
@@ -222,7 +228,7 @@
         </section>
 
         <section class="contato" id="contato">
-            <h1>Fale Conosco</h1> 
+            <h1>Fale Conosco</h1>
             <div class="container__contato margem">
                 <div class="container__contato__input">
                     <form action="#">
@@ -240,9 +246,9 @@
                             <input type="text" placeholder="Escreva Sua Mensagem" required>
                         </div>
 
-                    <div class="container__contato__input__button">
-                        <input type="submit">
-                    </div>
+                        <div class="container__contato__input__button">
+                            <input type="submit">
+                        </div>
                     </form>
 
                 </div>
@@ -293,15 +299,15 @@
         });
     </script>
 
-<script>
-    const toggle = document.getElementById('menu-toggle');
-const menu = document.getElementById('menu');
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
 
-toggle.addEventListener('click', () => {
-  menu.classList.toggle('active');
-});
+        toggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
 
-</script>
+    </script>
 
 </body>
 
